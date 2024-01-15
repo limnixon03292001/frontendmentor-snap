@@ -1,0 +1,115 @@
+
+@media (max-width: 940px) {
+    .nav-mobile {
+        display: block !important;
+    }
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-mobile-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.5rem;
+}
+
+.nav-mobile-wrapper > button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bg-overlay {
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+}
+
+.bg-overlayOpen {
+    display: block;
+}
+
+.bg-overlayClose {
+    display: none;
+}
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 310px;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background-color: white;    
+    padding: 1.5rem;
+    transition: all 0.4s ease;
+}
+
+.side-navClose {
+    transform: translateX(100%);
+}
+
+.side-navOpen {
+    transform: translateX(0%);
+}
+
+.side-nav > button {
+    border: none;
+    background: none;
+    display: block;
+    margin-left: auto;
+}
+
+.side-nav-dropdown-wrapper > a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 41%);
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.close-btn {
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.dropdown-btn {
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 41%);
+    margin: 1.2rem 0;
+    letter-spacing: 1px;
+}
+
+.side-nav-links-wrapper > button {
+    display: block;
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 100%;
+    color: hsl(0, 0%, 41%);
+}
+
+.side-nav-links-wrapper button:hover {
+    transition: all 0.4s ease;
+    color: hsl(0, 0%, 8%);
+}
+
+.side-nav-dropdown-wrapper > a:hover{
+    color: hsl(0, 0%, 8%);
+}

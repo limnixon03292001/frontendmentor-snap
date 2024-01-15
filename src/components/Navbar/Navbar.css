@@ -1,0 +1,134 @@
+@media (max-width: 940px) {
+    .nav-desktop {
+        display: none !important;
+    }
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-links-wrapper > button {
+    border: none;
+    background: none;
+    font-size: inherit;
+    color: hsl(0, 0%, 41%);
+    margin: 0 1rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.first-links-wrapper > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 0 1rem;
+    transition: all 0.4s ease;
+}
+
+.first-links-wrapper > a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.second-links-wrapper > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 0 1rem;
+    transition: all 0.4s ease;
+}
+
+.second-links-wrapper > a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.second-links-wrapper > a:last-child:hover {
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+.register-btn {
+    border: 1px solid hsl(0, 0%, 41%) !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.link-dropdown-wrapper {
+    position: relative;
+}
+
+.dropdown-wrapper1 {
+    position: absolute;
+    right: 0;
+    margin-top: 16px;
+    padding: 0.5rem 1.5rem;
+    width: max-content;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    z-index: 2;
+    text-align: left;
+}
+
+.dropdown-wrapper2 {
+    position: absolute;
+    left: 0;
+    margin-top: 16px;
+    padding: 0.5rem 1.5rem;
+    width: max-content;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    z-index: 2;
+    text-align: left;
+}
+
+.dropdown-wrapper1 > a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 10px 0;
+    transition: all 0.4s ease;
+    margin: 1rem 0;
+}
+.dropdown-wrapper1 > a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.dropdown-wrapper2 > a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 10px 0;
+    transition: all 0.4s ease;
+    margin: 1rem 0;
+}
+.dropdown-wrapper2 > a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+.link-dropdown-wrapper > img {
+    transition: all 0.4s ease;
+}
+.rotate-arrow {
+    transform: rotate(180deg);
+}
+
